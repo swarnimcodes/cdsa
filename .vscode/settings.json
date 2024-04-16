@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.gleam": "gleam",
+        "stdio.h": "c",
+        "math.h": "c"
+    }
+}
