@@ -27,7 +27,7 @@ int main() {
             for (int i = 0; i < len; ++i) {
                 if (S[i] == '?') {
                     //
-                    int previousElementIndex = len == 0 ? len - 2 : i - 1;
+                    int previousElementIndex = len == 0 ? len - 1 : i - 1;
                     if (S[i] == S[previousElementIndex]) {
                         printf("NO\n");
                         break;
